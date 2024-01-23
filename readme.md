@@ -1,8 +1,8 @@
-# Deloitte Virtual Coach
+# Virtual Coach
 
 ## Introduction
 ------------
-The Deloitte Virtual Coach is a LangChain application that allows you to chat with company-specific data. You can ask questions about the PDFs using natural language, and the application will provide relevant responses based on the most similar content in the documents. This app utilizes GPT-3.5-turbo, FAISS vector store and OpenAI embeddings to generate accurate answers to your queries. Please note that the app is restricted to respond only to the questions related to loaded PDFs. This data is sourced from publicly available articles, hence does not represent the company or use proprietary data in any way. This project is just a representation of the actual POC built by me.
+The  Virtual Coach is a LangChain application that allows you to chat with company-specific data. You can ask questions about the PDFs using natural language, and the application will provide relevant responses based on the most similar content in the documents. This app utilizes GPT-3.5-turbo, FAISS vector store and OpenAI embeddings to generate accurate answers to your queries. Please note that the app is restricted to respond only to the questions related to loaded PDFs. This data is sourced from publicly available articles, hence does not represent the company or use proprietary data in any way. This project is just a representation of the actual POC built by me.
 
 ## How It Works
 ------------
@@ -11,7 +11,7 @@ The Deloitte Virtual Coach is a LangChain application that allows you to chat wi
 
 ## Dependencies and Installation
 ----------------------------
-To install the Deloitte Virtual Coach, please follow these steps:
+To install the Virtual Coach, please follow these steps:
 
 1. Clone the repository to your local machine and set up the environment using venv.
 
@@ -44,7 +44,7 @@ The following are the improvements over the last version using GPT-index & Gradi
 
 ## Usage
 -----
-To use the Deloitte Virtual Coach, follow these steps:
+To use the Virtual Coach, follow these steps:
 
 1. Ensure that you have installed the required dependencies and added the OpenAI API key to the `.env` file.
 
@@ -68,5 +68,3 @@ To use the Deloitte Virtual Coach, follow these steps:
 ## Developed By:
 -----
 Kaushikq Ravindran
-Analyst, C&M (Android Dev)
-Deloitte Studios, Hyderabad
