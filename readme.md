@@ -33,7 +33,7 @@ The following are the improvements over the last version using GPT-index & Gradi
 
 1. You can now use both OpenAI's GPT-3.5-turbo model as well as all the available inferences of Open Source models on HuggingFace (No GPU required, Data is private). 
 
-2. You can also use the open source instructor embeddings if Deloitte does not want to go ahead with OpenAI embeddings (requires GPU compute)
+2. You can also use the open source instructor embeddings if your company does not want to go ahead with OpenAI embeddings (requires GPU compute)
 
 3. Chat history is now maintained to each session. Now, every previous message is passed as a context chain to the model, thus maintaining conversation history, thanks to LangChain. However, presistent conversation history can be brought by using chromaDB/Qdrant as a vector store instead of the current FAISS implementation, even after closing the application!
 
